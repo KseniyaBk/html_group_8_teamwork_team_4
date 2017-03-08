@@ -5,9 +5,7 @@
     max-width: 1180px;
     margin: 0 auto;
 }
-.promo {
 
-}
 .sl_slide {
     position: relative;
 }
@@ -33,10 +31,17 @@
     color: #fff;
     background: rgba(0, 0, 0, 0.75);
 }
+
 .preview {
     margin: 0 5px;
     box-sizing: border-box;
     overflow: hidden;
+}
+.sl2 {
+
+}
+.pd {
+    padding: 10px 5px;
 }
 @media screen and (min-width: 600px) {
 
