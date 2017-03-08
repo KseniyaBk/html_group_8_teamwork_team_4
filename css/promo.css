@@ -33,12 +33,16 @@
 }
 
 .preview {
-    margin: 0 5px;
+    margin: -10px 0;
     box-sizing: border-box;
     overflow: hidden;
 }
 .sl2 {
-
+    margin: 0 4px;
+    background: url(../upload/prew_bgpatt.png) 0 0 repeat;
+}
+.sl2 img {
+    cursor: pointer;
 }
 .pd {
     padding: 10px 5px;
