@@ -3,10 +3,11 @@
     width: 100%;
     min-width: 320px;
     max-width: 1180px;
-    margin: 20px auto;
-    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
 }
+.promo {
 
+}
 .sl_slide {
     position: relative;
 }
@@ -18,49 +19,34 @@
 
 .sl_description {
     position: absolute;
-    width: 31%;
-    top: 38%;
-    left: 3%;
+    width: 43%;
+    top: 27%;
+    left: 7%;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .sl_title {
-    font-weight: lighter;
-    font-size: 24px;
     padding: 0.65%;
     display: inline-block;
     margin: 1px 0;
     color: #fff;
     background: rgba(0, 0, 0, 0.75);
 }
-
+.preview {
+    margin: 0 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 @media screen and (min-width: 600px) {
-    .sl_title {
-        font-size: 19px;
-        padding: 0;
-    }
+
 }
 
 @media screen and (min-width: 1024px) {
     .container {
-
-    }
-
-    .sl_title {
-        padding: 0;
-        font-size: 35px;
-    }
-
-    .slick-dotted.slick-slider {
-        margin: 0 10px;
     }
 }
 
 @media screen and (min-width: 1180px) {
-    .container {
-        height: 580px;
-    }
 
-    .sl_title {
-        padding: 2px 0;
-    }
 }
