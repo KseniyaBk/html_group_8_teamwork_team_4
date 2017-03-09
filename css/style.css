@@ -135,6 +135,7 @@
     }
     .menu-wrapper:hover .menu {
         display: block;
+        z-index:2;
     }
     /**************** ENDDD!!!!!MAIN HEADER************************/
 
