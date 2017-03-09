@@ -5,7 +5,11 @@
     max-width: 1180px;
     margin: 0 auto;
 }
-
+.slider {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+}
 .sl_slide {
     position: relative;
 }
@@ -13,6 +17,7 @@
 .sl_img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 .sl_description {
@@ -41,21 +46,51 @@
     margin: 0 4px;
     background: url(../upload/prew_bgpatt.png) 0 0 repeat;
 }
-.sl2 img {
-    cursor: pointer;
-}
+
 .pd {
     padding: 10px 5px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 360px) {
+    .sl_description {
+        left: 6%;
+    }
+}
+@media screen and (min-width: 480px) {
+    .sl_description {
+        width: 40%;
+        top: 19%;
+        left: 4%;
+        font-size: 12px;
+    }
+    .sl_title {
+        padding: 0.65%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .sl_description {
+        width: 30%;
+    }
 
 }
+@media screen and (min-width: 640px) {
+    .sl_description {
+        width: 30%;
+        left: 3%;
+        font-size: 14px;
+    }
+}
+
 
 @media screen and (min-width: 1024px) {
     .container {
     }
+    .sl_description {
+        width: 43%;
+    }
 }
 
 @media screen and (min-width: 1180px) {
-
+    .sl_description {
+        width: 43%;
+    }
 }
