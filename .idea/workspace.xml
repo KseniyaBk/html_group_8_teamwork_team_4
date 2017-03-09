@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52bfc5fe-bd72-4943-8c63-4074d6afecb3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slick/css/slick.css" afterPath="$PROJECT_DIR$/vendor/slick/css/slick.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1904">
+            <state relative-caret-position="-1303">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="346" column="18" lean-forward="false" selection-start-line="346" selection-start-column="18" selection-end-line="346" selection-end-column="18" />
+              <caret line="346" column="24" lean-forward="false" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="slick.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/slick/css/slick.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="445">
+              <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -252,12 +252,12 @@
       <workItem from="1489060700831" duration="124000" />
       <workItem from="1489063831740" duration="3229000" />
       <workItem from="1489069737317" duration="2828000" />
-      <workItem from="1489078482491" duration="1494000" />
+      <workItem from="1489078482491" duration="2867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25051000" />
+    <option name="totallyTimeSpent" value="26424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -471,17 +471,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/slick/css/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
+        <state relative-caret-position="-1303">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
@@ -495,10 +487,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slick/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="346" column="18" lean-forward="false" selection-start-line="346" selection-start-column="18" selection-end-line="346" selection-end-column="18" />
+          <caret line="346" column="24" lean-forward="false" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
           <folding />
         </state>
       </provider>

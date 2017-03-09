@@ -344,6 +344,6 @@
 }
 @media screen and (min-width: 1358px) {
     .preview {
-        margin: 110px 0;
+        margin: -20px 0;
     }
 }
