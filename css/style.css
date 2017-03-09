@@ -141,6 +141,122 @@
     .sl_description {
         left: 6%;
     }
+    /********************FOOTER******************************************/
+    .footer {
+        background: url("../images/prew_bgpatt.png") 100% repeat;
+        padding: 5% 0%;
+        border-top: 8px solid #ea5a4b;
+    }
+    .wrap-article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .col {
+        width:80%;
+    }
+    .box-col-txt h5 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.8777em;
+    }
+    .br-tottom {
+        display: block;
+        font-family: 'Bitter', serif;
+        font-weight:bold;
+        color: #adadad;
+        font-size: 0.8777em;
+        line-height: 1.29em;
+        padding-bottom:8%;
+        margin:14px 0;
+        text-decoration: none;
+        border-bottom: 1px solid #3b3b3b;
+    }
+    .no-border {
+        font-family: 'Bitter', serif;
+        font-weight:bold;
+        color: #adadad;
+        font-size: 0.8777em;
+        line-height: 1.29em;
+        padding-bottom:1%;
+        margin:0;
+        margin-right:12%;
+        border-bottom: none;
+    }
+    .box-col-txt a:last-child {
+        border-bottom: none;
+    }
+    .soc-icon-footer {
+        width:75%;
+    }
+    .footer-soc {
+        width: 32px;
+        height:32px;
+        top:0;
+        left:0;
+        display: inline-block;
+        background: url("../images/soc-icon-footer.png")-3px -2px no-repeat;
+    }
+    .f-fb {
+        background: url("../images/soc-icon-footer.png") -40px -3px no-repeat;
+    }
+    .f-tw {
+        background: url("../images/soc-icon-footer.png") -76px -3px no-repeat;
+    }
+    .f-mail {
+        background: url("../images/soc-icon-footer.png") -113px -3px no-repeat;
+    }
+    .f-tumb {
+        background: url("../images/soc-icon-footer.png") -150px -3px no-repeat;
+    }
+    .f-path {
+        background: url("../images/soc-icon-footer.png") -186px -3px no-repeat;
+    }
+    .f-vm {
+        background: url("../images/soc-icon-footer.png") -222px -3px no-repeat;
+    }
+    .f-zerply {
+        background: url("../images/soc-icon-footer.png") -259px -3px no-repeat;
+    }
+    .f-picasa {
+        background: url("../images/soc-icon-footer.png") -3px -37px no-repeat;
+    }
+    .f-stumbleupon {
+        background: url("../images/soc-icon-footer.png") -40px -37px no-repeat;
+    }
+    .f-skp {
+        background: url("../images/soc-icon-footer.png") -75px -37px no-repeat;
+    }
+    .f-rdt {
+        background: url("../images/soc-icon-footer.png") -113px -37px no-repeat;
+    }
+    .f-evernote {
+        background: url("../images/soc-icon-footer.png") -149px -37px no-repeat;
+    }
+    .f-behan {
+        background: url("../images/soc-icon-footer.png") -186px -37px no-repeat;
+    }
+    .f-dribble {
+        background: url("../images/soc-icon-footer.png") -222px -37px no-repeat;
+    }
+    .f-diggg {
+        background: url("../images/soc-icon-footer.png") -259px -37px no-repeat;
+    }
+    .f-blogger {
+        background: url("../images/soc-icon-footer.png") -3px -71px no-repeat;
+    }
+    .f-flick {
+        background: url("../images/soc-icon-footer.png") -40px -71px no-repeat;
+    }
+    .f-linked {
+        background: url("../images/soc-icon-footer.png") -75px -71px no-repeat;
+    }
+    .f-google {
+        background: url("../images/soc-icon-footer.png") -112px -71px no-repeat;
+    }
+    /**************************END FOOTER!!!!******************************************/
+
 }
 @media screen and (min-width: 480px) {
     .sl_description {
@@ -208,4 +324,19 @@
     .sl_description {
         width: 43%;
     }
+    /********************Foooter********************************/
+    .wrap-article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .soc-icon-footer {
+        width: 300px;
+    }
+    /********************END Footer***************************************/
 }
