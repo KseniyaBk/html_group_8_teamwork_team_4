@@ -109,3 +109,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+@media screen and (min-width: 1024px) {
+    .sl2 img {
+        width: 89%;
+    }
+}

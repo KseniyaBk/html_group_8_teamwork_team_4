@@ -16,8 +16,8 @@
 .slick-prev,
 .slick-next {
     background: #ea5a4b;
-    height: 20px;
-    width: 20px;
+    height: 14%;
+    width: 7%;
     outline: none;
     color: transparent;
     position: absolute;
@@ -47,10 +47,10 @@
 
 .slick-prev:before,
 .slick-next:before {
-    top: 2px;
-    right: 5px;
-    width: 11px;
-    height: 23px;
+    top: 7%;
+    right: 25%;
+    width: 50%;
+    height: 66%;
     background: transparent url(../img/ic-arrows.png) no-repeat;
 }
 
@@ -65,7 +65,7 @@
 
 
 .slick-prev {
-    left: 20px;
+    left: 7%;
 }
 
 /*[dir='rtl'] .slick-prev {*/
@@ -82,7 +82,7 @@
 /*}*/
 
 .slick-next {
-    left: 45px;
+    left: 15%;
 }
 
 /*[dir='rtl'] .slick-next {*/
@@ -180,7 +180,34 @@
     opacity: 1;
     color: #492a6a;
 }
-
+@media screen and (min-width: 360px){
+    .slick-prev {
+        left: 2%;
+    }
+    .slick-next {
+        left: 10%;
+    }
+    .slick-prev:before, .slick-next:before {
+        top: 9%;
+        right: 22%;
+    }
+}
+@media screen and (min-width: 480px) {
+    .slick-prev:before, .slick-next:before {
+        top: 10%;
+    }
+    .slick-prev {
+        left: 2%;
+    }
+    .slick-next {
+        left: 7%;
+    }
+    .slick-prev, .slick-next {
+        height: 9%;
+        width: 4%;
+        top: 55%;
+    }
+}
 @media screen and (min-width: 600px) {
     .slick-dots {
         width: 14%;
@@ -195,10 +222,40 @@
     }
 
 }
-
+@media screen and (min-width: 640px) {
+    .slick-prev, .slick-next {
+        height: 9%;
+        width: 4%;
+        top: 52%;
+    }
+    .slick-prev:before, .slick-next:before {
+        top: 15%;
+        right: 25%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .slick-prev, .slick-next {
+        top: 55%;
+    }
+    .slick-prev:before, .slick-next:before {
+        top: 21%;
+        right: 20%;
+    }
+}
 @media screen and (min-width: 1024px) {
     .slick-dots {
         width: 9%;
+    }
+    .slick-prev, .slick-next {
+        top: 54%;
+        height: 7%;
+        width: 3%;
+    }
+    .slick-prev {
+        left: 3.8%;
+    }
+    .slick-next {
+        left: 7.2%;
     }
 }
 
@@ -217,4 +274,10 @@
 
     }
 
+}
+@media screen and (min-width: 1194px) and (max-width: 1440px) {
+
+    .slick-prev, .slick-next {
+        top: 62%;
+    }
 }

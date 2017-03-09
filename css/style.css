@@ -4,11 +4,13 @@
     max-width: 1180px;
     margin: 0 auto;
 }
+
 .slider {
     width: 100%;
     height: auto;
     max-height: 450px;
 }
+
 .sl_slide {
     position: relative;
 }
@@ -21,10 +23,10 @@
 
 .sl_description {
     position: absolute;
-    width: 43%;
+    width: 46%;
     top: 27%;
     left: 7%;
-    font-size: 11px;
+    font-size: 73%;
     font-weight: bold;
 }
 
@@ -37,19 +39,21 @@
 }
 
 .preview {
-    margin: -10px 0;
+    margin: -6% 0;
     box-sizing: border-box;
     overflow: hidden;
 }
+
 .sl2 {
-    padding: 10px 10px;
-    margin: 0 4px;
+    padding: 2% 2%;
+    margin: 0 1%;
     background: url(../images/prew_bgpatt.png) 0 0 repeat;
 }
 
 .pd {
     padding: 10px 4px;
 }
+
 @media screen and (min-width: 360px) {
     /************ВЕРХНЕЕ МЕНЮ НАД HEADER БЛОК с СОЦ. Сетями!************/
     .wall-icon {
@@ -60,6 +64,7 @@
     .block-icon {
         float: right;
     }
+
     .header-soc {
         width: 25px;
         height: 20px;
@@ -68,12 +73,15 @@
         display: inline-block;
         background: url("../images/soc-icon.png") -2px 1px no-repeat;
     }
+
     .fb {
         background: url("../images/soc-icon.png") -28px 1px no-repeat;
     }
+
     .dribble {
         background: url("../images/soc-icon.png") -53px 1px no-repeat;
     }
+
     .rss {
         background: url("../images/soc-icon.png") -74px 1px no-repeat;
     }
@@ -88,6 +96,7 @@
         -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.7);
         box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.7);
     }
+
     .logo {
         display: block;
         float: left;
@@ -97,12 +106,14 @@
         max-width: 120px;
         background: url("../images/logo.png") center center no-repeat;
     }
+
     .menu-wrapper {
         position: relative;
         float: right;
         width: 50%;
         text-align: right;
     }
+
     .menu-hamburger {
         font-size: 2em;
         display: inline-block;
@@ -110,6 +121,7 @@
         text-decoration: none;
         color: #ea5a4b;
     }
+
     .menu {
         position: absolute;
         top: 100%;
@@ -119,6 +131,7 @@
         text-align: center;
         background: rgba(255, 255, 255, .8);
     }
+
     .menu a {
         font-size: 0.75em;
         font-weight: bold;
@@ -130,219 +143,314 @@
         text-transform: uppercase;
         color: #252525;
     }
+
     .menu a:hover {
         color: #ea5a4b;
     }
+
     .menu-wrapper:hover .menu {
         display: block;
-        z-index:2;
+        z-index: 2;
     }
-    /**************** ENDDD!!!!!MAIN HEADER************************/
 
+    /**************** ENDDD!!!!!MAIN HEADER************************/
+    /**************** PROMO ***************************************/
     .sl_description {
-        left: 6%;
+        left: 2%;
     }
+
+    .preview {
+        margin: -5% 0;
+    }
+
     /********************FOOTER******************************************/
     .footer {
         background: url("../images/prew_bgpatt.png") 100% repeat;
         padding: 5% 0%;
         border-top: 8px solid #ea5a4b;
     }
+
     .wrap-article {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content: center;
     }
+
     .col {
-        width:80%;
+        width: 80%;
     }
+
     .box-col-txt h5 {
         color: #ffffff;
         text-transform: uppercase;
         font-size: 0.8777em;
     }
+
     .br-tottom {
         display: block;
         font-family: 'Bitter', serif;
-        font-weight:bold;
+        font-weight: bold;
         color: #adadad;
         font-size: 0.8777em;
         line-height: 1.29em;
-        padding-bottom:8%;
-        margin:14px 0;
+        padding-bottom: 8%;
+        margin: 14px 0;
         text-decoration: none;
         border-bottom: 1px solid #3b3b3b;
     }
+
     .no-border {
         font-family: 'Bitter', serif;
-        font-weight:bold;
+        font-weight: bold;
         color: #adadad;
         font-size: 0.8777em;
         line-height: 1.29em;
-        padding-bottom:1%;
-        margin:0;
-        margin-right:12%;
+        padding-bottom: 1%;
+        margin: 0;
+        margin-right: 12%;
         border-bottom: none;
     }
+
     .box-col-txt a:last-child {
         border-bottom: none;
     }
+
     .soc-icon-footer {
-        width:75%;
+        width: 75%;
     }
+
     .footer-soc {
         width: 32px;
-        height:32px;
-        top:0;
-        left:0;
+        height: 32px;
+        top: 0;
+        left: 0;
         display: inline-block;
-        background: url("../images/soc-icon-footer.png")-3px -2px no-repeat;
+        background: url("../images/soc-icon-footer.png") -3px -2px no-repeat;
     }
+
     .f-fb {
         background: url("../images/soc-icon-footer.png") -40px -3px no-repeat;
     }
+
     .f-tw {
         background: url("../images/soc-icon-footer.png") -76px -3px no-repeat;
     }
+
     .f-mail {
         background: url("../images/soc-icon-footer.png") -113px -3px no-repeat;
     }
+
     .f-tumb {
         background: url("../images/soc-icon-footer.png") -150px -3px no-repeat;
     }
+
     .f-path {
         background: url("../images/soc-icon-footer.png") -186px -3px no-repeat;
     }
+
     .f-vm {
         background: url("../images/soc-icon-footer.png") -222px -3px no-repeat;
     }
+
     .f-zerply {
         background: url("../images/soc-icon-footer.png") -259px -3px no-repeat;
     }
+
     .f-picasa {
         background: url("../images/soc-icon-footer.png") -3px -37px no-repeat;
     }
+
     .f-stumbleupon {
         background: url("../images/soc-icon-footer.png") -40px -37px no-repeat;
     }
+
     .f-skp {
         background: url("../images/soc-icon-footer.png") -75px -37px no-repeat;
     }
+
     .f-rdt {
         background: url("../images/soc-icon-footer.png") -113px -37px no-repeat;
     }
+
     .f-evernote {
         background: url("../images/soc-icon-footer.png") -149px -37px no-repeat;
     }
+
     .f-behan {
         background: url("../images/soc-icon-footer.png") -186px -37px no-repeat;
     }
+
     .f-dribble {
         background: url("../images/soc-icon-footer.png") -222px -37px no-repeat;
     }
+
     .f-diggg {
         background: url("../images/soc-icon-footer.png") -259px -37px no-repeat;
     }
+
     .f-blogger {
         background: url("../images/soc-icon-footer.png") -3px -71px no-repeat;
     }
+
     .f-flick {
         background: url("../images/soc-icon-footer.png") -40px -71px no-repeat;
     }
+
     .f-linked {
         background: url("../images/soc-icon-footer.png") -75px -71px no-repeat;
     }
+
     .f-google {
         background: url("../images/soc-icon-footer.png") -112px -71px no-repeat;
     }
+
     /**************************END FOOTER!!!!******************************************/
 
 }
+
 @media screen and (min-width: 480px) {
+
+    /*************************** PROMO *****************************************************/
     .sl_description {
         width: 40%;
-        top: 19%;
-        left: 4%;
-        font-size: 12px;
+        top: 22%;
+        left: 2%;
+        font-size: 90%;
     }
+
     .sl_title {
         padding: 0.65%;
     }
+
+    .preview {
+        margin: -4% 0;
+    }
 }
+
 @media screen and (min-width: 481px) and (max-width: 640px) {
+    /*************************** PROMO *****************************************************/
     .sl_description {
         width: 30%;
     }
 
 }
+
 @media screen and (min-width: 640px) {
+    /*************************** PROMO *****************************************************/
     .sl_description {
-        width: 30%;
-        left: 3%;
-        font-size: 14px;
+        width: 37%;
+        left: 2%;
+        font-size: 120%;
     }
 }
 
+@media screen and (min-width: 768px) {
+    /*************************** PROMO *****************************************************/
+    .preview {
+        margin: -3% 0;
+    }
+
+    .sl_description {
+        width: 38%;
+        left: 2%;
+        font-size: 144%;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .container {
+        max-width: 940px;
     }
-    .sl_description {
-        width: 43%;
-    }
-}
 
-@media screen and (min-width: 1180px) {
-    /**************HEADER*************************/
-    .menu-wrapper {
-        display: block;
-    }
-    .menu-wrapper:hover .menu {
-        display: inline-block;
-    }
-    .menu {
-        position: static;
-        display: inline-block;
-        min-width: 16em;
-        text-align: center;
-        background: rgba(255, 255, 255, .8);
-    }
-    .menu-hamburger {
-        display: none;
-    }
-    .menu a {
-        font-size: 0.75em;
-        font-weight: bold;
-        line-height: 1.33333em;
-        display: inline-block;
-        margin: 0 2% 2% 2%;
-        padding: 3% 0;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #252525;
-    }
+    /*************************** PROMO *****************************************************/
     .sl_description {
-        width: 43%;
+        width: 40%;
+        top: 21.5%;
+        left: 3.7%;
+        font-size: 170%;
+
     }
-    /********************Foooter********************************/
-    .wrap-article {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+
+    .sl_title {
+        padding: 1.2% 3.65% 1.6% 3.5%;
     }
-    .col {
-        width: 30%;
-        margin: 0 10px;
-    }
-    .soc-icon-footer {
-        width: 300px;
-    }
-    /********************END Footer***************************************/
-}
-@media screen and (min-width: 1358px) {
+
     .preview {
-        margin: -20px 0;
+        margin: -2.2% 0;
+    }
+    .sl2 {
+        margin: 0 -0.5% 0 0.5%;
+        padding: 2% 0 2% 2.5%;
+    }
+    }
+    @media screen and (min-width: 1180px) {
+        /**************HEADER*************************/
+        .menu-wrapper {
+            display: block;
+        }
+
+        .menu-wrapper:hover .menu {
+            display: inline-block;
+        }
+
+        .menu {
+            position: static;
+            display: inline-block;
+            min-width: 16em;
+            text-align: center;
+            background: rgba(255, 255, 255, .8);
+        }
+
+        .menu-hamburger {
+            display: none;
+        }
+
+        .menu a {
+            font-size: 0.75em;
+            font-weight: bold;
+            line-height: 1.33333em;
+            display: inline-block;
+            margin: 0 2% 2% 2%;
+            padding: 3% 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #252525;
+        }
+
+        .sl_description {
+            width: 43%;
+        }
+
+        /*************************** PROMO *****************************************************/
+        /********************Foooter********************************/
+        .wrap-article {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .col {
+            width: 30%;
+            margin: 0 10px;
+        }
+
+        .soc-icon-footer {
+            width: 300px;
+        }
+
+        /********************END Footer***************************************/
+    }
+@media screen and (min-width: 1194px) and (max-width: 1440px) {
+    .sl_description {
+        font-size: 198%;
     }
 }
+    @media screen and (min-width: 1357px) {
+        .preview {
+            margin: -20px 0;
+        }
+    }
+
+

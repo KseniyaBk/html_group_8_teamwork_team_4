@@ -1,6 +1,6 @@
 $('.slider').slick({
-    autoplay: true,
-    autoplaySpeed: 5000,
+    // autoplay: true,
+    // autoplaySpeed: 5000,
     asNavFor: '.sl2',
     mobileFirst: true
 });
@@ -45,7 +45,7 @@ $('.sl2').slick({
             }
         },
         {
-            breakpoint: 1024,
+            breakpoint: 1023,
             settings: {
                 slidesToShow: 10
             }
