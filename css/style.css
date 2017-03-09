@@ -43,12 +43,13 @@
     overflow: hidden;
 }
 .sl2 {
+    padding: 10px 10px;
     margin: 0 4px;
     background: url(../images/prew_bgpatt.png) 0 0 repeat;
 }
 
 .pd {
-    padding: 10px 5px;
+    padding: 10px 4px;
 }
 @media screen and (min-width: 360px) {
     /************ВЕРХНЕЕ МЕНЮ НАД HEADER БЛОК с СОЦ. Сетями!************/
@@ -343,6 +344,6 @@
 }
 @media screen and (min-width: 1358px) {
     .preview {
-        margin: 120px 0;
+        margin: 110px 0;
     }
 }
