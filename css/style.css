@@ -54,7 +54,7 @@
     padding: 10px 4px;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
     /************ВЕРХНЕЕ МЕНЮ НАД HEADER БЛОК с СОЦ. Сетями!************/
     .wall-icon {
         background: url("../images/prew_bgpatt.png") 100% repeat;
@@ -163,6 +163,72 @@
         margin: -5% 0;
     }
 
+    .wrap {
+        padding: 3%;
+        background: #ffffff;
+        border: 1px solid rgb(218, 218, 218);
+        margin: -4% 0;
+    }
+    .col-wrap {
+        width: 80%;
+        margin-left: 15%;
+    }
+    .col-article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col-img {
+        background: #000000;
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        margin-right: 5%;
+        float: left;
+        margin-top: 10%;
+    }
+    .col-img-in {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        padding: 14px;
+        background: url("../images/col-icon-first.png") center center no-repeat;
+    }
+    .user {
+        background: url("../images/col-icon-second.png") center center no-repeat;
+    }
+
+    .pencill {
+        background: url("../images/col-icon-third.png") center center no-repeat;
+    }
+    .col-txt {
+        font-family: 'Bitter', serif;
+        font-size: 1.12em;
+        color: #252525;
+        float: left;
+        margin-top: 10%;
+    }
+    .col-wrap p {
+        font-size: 0.89em;
+        line-height: 20px;
+        color: #5c5c5c;
+        margin-top: 4%;
+    }
+    .impression-design {
+        font-family: 'Bitter', serif;
+        font-size: 1.12em;
+        color: #252424;
+        text-align: center;
+        padding: 5% 0;
+    }
+    .impression-design span {
+        font-family: 'Bitter', serif;
+        padding:12px;
+        font-size: 18px;
+        color: #ffffff;
+        background: #ea5a4b;
+    }
     /********************FOOTER******************************************/
     .footer {
         background: url("../images/prew_bgpatt.png") 100% repeat;
@@ -423,6 +489,7 @@
         }
 
         /*************************** PROMO *****************************************************/
+
         /********************Foooter********************************/
         .wrap-article {
             display: flex;
@@ -450,6 +517,68 @@
     @media screen and (min-width: 1357px) {
         .preview {
             margin: -20px 0;
+        }
+        .wrap {
+            padding: 3%;
+            background: #ffffff;
+            border: 1px solid rgb(218, 218, 218);
+            margin: -4% 0;
+        }
+        .col-wrap {
+            width:31%;
+            margin:0;
+        }
+        .col-article {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .col-img {
+            background: #000000;
+            display: inline-block;
+            width: 44px;
+            height: 44px;
+            margin-right: 5%;
+            float: left;
+        }
+        .col-img-in {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            padding: 14px;
+            background: url("../images/col-icon-first.png") center center no-repeat;
+        }
+        .user {
+            background: url("../images/col-icon-second.png") center center no-repeat;
+        }
+
+        .pencill {
+            background: url("../images/col-icon-third.png") center center no-repeat;
+        }
+        .col-txt {
+            font-family: 'Bitter', serif;
+            font-size: 1.12em;
+            color: #252525;
+            float: left;
+        }
+        .col-wrap p {
+            font-size: 0.89em;
+            line-height:16px;
+            color: #5c5c5c;
+        }
+        .impression-design {
+            font-family: 'Bitter', serif;
+            font-size: 1.12em;
+            color: #252424;
+            text-align: center;
+        }
+        .impression-design span {
+            font-family: 'Bitter', serif;
+            padding:12px;
+            font-size: 18px;
+            color: #ffffff;
+            background: #ea5a4b;
         }
     }
 
