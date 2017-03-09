@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="vendor/slick/css/slick.css">
     <link rel="stylesheet" href="vendor/slick/css/slick-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Oleg Znamenskii - Slick</title>
 </head>
@@ -38,6 +40,7 @@
     </div>
 </header>
 <div class="promo">
+    <div class="container">
     <div class="slider slick-slider">
         <div class="sl_slide slick-slide">
             <img src="upload/sl1.jpg" alt="slide picture" class="sl_img">
@@ -119,6 +122,7 @@
                 <p class="sl_title">About Deals.</p>
             </div>
         </div>
+    </div>
     </div> <!--end slider-->
     <div class="preview">
         <div class="container">
@@ -207,6 +211,57 @@
         </div>
     </div>
 </section>
+<div class="gallery-wrap">
+<div class="container">
+    <div class="row">
+        <ul class="simplefilter">
+            <li class="active" data-filter="all">All</li>
+            <li data-filter="1">Print</li>
+            <li data-filter="2">Photography</li>
+            <li data-filter="3">Web</li>
+            <li data-filter="4">Animation</li>
+        </ul>
+    </div>
+    <div class="row">
+        <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+        attribute, which starts from the value 1 and goes up from there -->
+        <div class="filtr-container">
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="Busy streets">
+                <img class="img-responsive" src="upload/gl1.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 5" data-sort="Luminous night">
+                <img class="img-responsive" src="upload/gl2.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 4" data-sort="City wonders">
+                <img class="img-responsive" src="upload/gl3.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="In production">
+                <img class="img-responsive" src="upload/gl4.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 4" data-sort="Industrial site">
+                <img class="img-responsive" src="upload/gl5.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+                <img class="img-responsive" src="upload/gl6.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="City lights">
+                <img class="img-responsive" src="upload/gl7.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+                <img class="img-responsive" src="upload/gl8.jpg" alt="gallery image">
+                <span class="item-desc">Business Cards</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 <footer class="footer">
     <div class="container">
         <div class="wrap-article">
@@ -257,8 +312,24 @@
         </div>
     </div>
 </footer>
-</body>
 <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
 <script src="vendor/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="vendor/filterizr/jquery.filterizr.js"></script>
+<script src="js/controls.js"></script>
+<!-- Kick off Filterizr -->
+<script type="text/javascript">
+    $(function() {
+        //Initialize filterizr with default options
+        $('.filtr-container').filterizr();
+    });
+</script>
+</body>
 </html>
