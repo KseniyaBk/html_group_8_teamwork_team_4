@@ -341,3 +341,8 @@
     }
     /********************END Footer***************************************/
 }
+@media screen and (min-width: 1358px) {
+    .preview {
+        margin: 120px 0;
+    }
+}
