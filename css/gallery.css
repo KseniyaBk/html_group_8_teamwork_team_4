@@ -127,9 +127,9 @@ select {
         right: 10.8%;
     }
 }
-@media screen and (min-width: 1358px) {
+@media screen and (min-width: 1357px) {
     .item-desc {
-        left: 3.5%;
-        right: 26%;
+        left: 4.5%;
+        right: 4.8%;
     }
 }
