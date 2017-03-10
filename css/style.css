@@ -58,11 +58,12 @@
     /************ВЕРХНЕЕ МЕНЮ НАД HEADER БЛОК с СОЦ. Сетями!************/
     .wall-icon {
         background: url("../images/prew_bgpatt.png") 100% repeat;
-        padding: 25px 0;
+        padding: 5.7% 0 9px 0;
     }
 
     .block-icon {
         float: right;
+        margin-right: -5px;
     }
 
     .header-soc {
@@ -70,6 +71,8 @@
         height: 20px;
         top: 1px;
         right: 1px;
+        margin-left: 13px;
+        margin-right: -10px;
         display: inline-block;
         background: url("../images/soc-icon.png") -2px 1px no-repeat;
     }
@@ -90,7 +93,7 @@
     /**********************EENNNDD!!!!!!!!******************************/
     /******************MAIN HEADER******************/
     .header {
-        padding: 28px 0;
+        padding: 10px 0 0;
         background: url("../images/header-main-pattern.png") 100% repeat;
         -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.7);
         -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.7);
@@ -102,7 +105,7 @@
         float: left;
         width: 100%;
         padding: 18px 0;
-        margin-left: 3%;
+        margin-left: -15px;
         max-width: 120px;
         background: url("../images/logo.png") center center no-repeat;
     }
@@ -264,10 +267,10 @@
         font-family: 'Bitter', serif;
         font-weight: bold;
         color: #adadad;
-        font-size: 0.8777em;
+        font-size: 1em;
         line-height: 1.29em;
-        padding-bottom: 8%;
-        margin: 14px 0;
+        padding-bottom: 4%;
+        margin: 17px 0px 0px 22px;
         text-decoration: none;
         border-bottom: 1px solid #3b3b3b;
     }
@@ -506,11 +509,18 @@
 
         .col {
             width: 30%;
-            margin: 0 10px;
+            margin: -1px -13px;
         }
 
         .soc-icon-footer {
             width: 300px;
+            padding: 10px 0px 0px 0px;
+        }
+        .box-col-txt {
+            margin: 0px 0px 0px -23px;
+        }
+        .mr-left {
+            margin-left:7%;
         }
 
         /********************END Footer***************************************/
@@ -520,6 +530,7 @@
         /**************HEADER*************************/
         .menu-wrapper {
             display: block;
+            margin-top: 0px;
         }
 
         .menu-wrapper:hover .menu {
@@ -532,6 +543,10 @@
             min-width: 16em;
             text-align: center;
             background: none;
+            width: 80%;
+            margin-top: 1px;
+            margin-left: 0px;
+            margin-right: -54px;
         }
 
         .menu-hamburger {
@@ -539,11 +554,11 @@
         }
 
         .menu a {
-            font-size: 0.75em;
+            font-size: 0.9em;
             font-weight: bold;
             line-height: 1.33333em;
             display: inline-block;
-            margin: 0 2% 2% 2%;
+            margin: 0 2% 2% 3%;
             padding: 3% 0;
             text-decoration: none;
             text-transform: uppercase;
@@ -584,31 +599,31 @@
             padding: 3%;
             background: #ffffff;
             border: 1px solid rgb(218, 218, 218);
-            margin: -4% 0;
+            margin: -3% -15px;
+            box-sizing: border-box;
         }
         .col-wrap {
-            width:31%;
-            margin:0;
+            width: 31%;
+            margin: 0;
         }
         .col-article {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
+            margin-top: 5.4%;
         }
         .col-img {
             background: #000000;
             display: inline-block;
-            width: 44px;
-            height: 44px;
-            margin-right: 5%;
+            width: 30px;
+            height: 30px;
+            margin-right: 5.1%;
             float: left;
         }
         .col-img-in {
             display: inline-block;
-            width: 17px;
-            height: 17px;
-            padding: 14px;
+            padding: 15px;
             background: url("../images/col-icon-first.png") center center no-repeat;
         }
         .user {
@@ -623,17 +638,20 @@
             font-size: 1.12em;
             color: #252525;
             float: left;
+            margin-top: 4%;
         }
         .col-wrap p {
-            font-size: 0.89em;
-            line-height:16px;
+            font-size: 1em;
+            line-height: 16px;
             color: #5c5c5c;
+            margin-top: 10px;
         }
         .impression-design {
             font-family: 'Bitter', serif;
             font-size: 1.12em;
             color: #252424;
             text-align: center;
+            padding: 2%;
         }
         .impression-design span {
             font-family: 'Bitter', serif;

@@ -15,8 +15,6 @@
     left: 6%;
     right: 6%;
     transform: scale(0);
-
-
 }
 .filtr-item:hover .item-desc {
     transform: scale(1);
