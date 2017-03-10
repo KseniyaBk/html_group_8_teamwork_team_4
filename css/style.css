@@ -600,6 +600,10 @@
             margin: -2% auto;
         }
 
+        .my_ul {
+            padding: 0 1.5%;
+            margin-bottom: 2%;
+        }
         /****************** END PROMO *******************************************/
         .wrap {
             padding: 3%;
@@ -657,7 +661,7 @@
             font-size: 1.12em;
             color: #252424;
             text-align: center;
-            padding: 2%;
+            padding: 2% 0 4.8%;
         }
         .impression-design span {
             font-family: 'Bitter', serif;

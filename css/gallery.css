@@ -31,7 +31,8 @@
     cursor: pointer;
     display: inline-block;
     text-transform: capitalize;
-    padding: 1rem 2rem;
+    padding: 0.7% 1.1% 0.6% 1.1%;
+    margin-right: 0.66%;
 }
 .simplefilter li {
     background-color: transparent;
