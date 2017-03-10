@@ -162,6 +162,7 @@
     .promo {
         font-family: 'Bitter', serif;
         font-weight: bold;
+        background: url("../images/header-main-pattern.png") 100% repeat;
     }
 
     .sl_description {
@@ -498,7 +499,9 @@
         }
 
         /*************************** PROMO *****************************************************/
-
+        .impression {
+            background: url("../images/header-main-pattern.png") 100% repeat;
+        }
         /********************Foooter********************************/
         .wrap-article {
             display: flex;
