@@ -202,7 +202,7 @@
         display: inline-block;
         width: 17px;
         height: 17px;
-        padding: 14px;
+        padding: 22px;
         background: url("../images/col-icon-first.png") center center no-repeat;
     }
     .user {
@@ -230,12 +230,12 @@
         font-size: 1.12em;
         color: #252424;
         text-align: center;
-        padding: 5% 0;
+        padding: 10% 0;
     }
     .impression-design span {
         font-family: 'Bitter', serif;
         padding:12px;
-        font-size: 18px;
+        font-size: 15px;
         color: #ffffff;
         background: #ea5a4b;
     }
@@ -255,12 +255,14 @@
 
     .col {
         width: 80%;
+        padding-top:10%;
     }
 
     .box-col-txt h5 {
         color: #ffffff;
         text-transform: uppercase;
         font-size: 0.8777em;
+        font-weight: bold;
     }
 
     .br-tottom {
@@ -271,7 +273,7 @@
         font-size: 1em;
         line-height: 1.29em;
         padding-bottom: 4%;
-        margin: 17px 0px 0px 22px;
+        margin: 0;
         text-decoration: none;
         border-bottom: 1px solid #3b3b3b;
     }
@@ -513,6 +515,7 @@
         .col {
             width: 30%;
             margin: -1px -13px;
+            padding-top: 0;
         }
 
         .soc-icon-footer {
@@ -662,6 +665,18 @@
             font-size: 18px;
             color: #ffffff;
             background: #ea5a4b;
+        }
+        .br-tottom {
+            display: block;
+            font-family: 'Bitter', serif;
+            font-weight: bold;
+            color: #adadad;
+            font-size: 1em;
+            line-height: 1.29em;
+            padding-bottom: 4%;
+            margin: 17px 0px 0px 22px;
+            text-decoration: none;
+            border-bottom: 1px solid #3b3b3b;
         }
     }
 
