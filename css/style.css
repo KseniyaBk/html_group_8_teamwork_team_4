@@ -471,7 +471,7 @@
             display: inline-block;
             min-width: 16em;
             text-align: center;
-            background: rgba(255, 255, 255, .8);
+            background: none;
         }
 
         .menu-hamburger {
@@ -517,6 +517,43 @@
     }
 
     @media screen and (min-width: 1357px) {
+        /**************HEADER*************************/
+        .menu-wrapper {
+            display: block;
+        }
+
+        .menu-wrapper:hover .menu {
+            display: inline-block;
+        }
+
+        .menu {
+            position: static;
+            display: inline-block;
+            min-width: 16em;
+            text-align: center;
+            background: none;
+        }
+
+        .menu-hamburger {
+            display: none;
+        }
+
+        .menu a {
+            font-size: 0.75em;
+            font-weight: bold;
+            line-height: 1.33333em;
+            display: inline-block;
+            margin: 0 2% 2% 2%;
+            padding: 3% 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #252525;
+        }
+
+        .sl_description {
+            width: 43%;
+        }
+
 
         /****************** PROMO *******************************************/
 
