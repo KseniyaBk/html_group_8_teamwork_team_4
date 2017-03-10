@@ -10,6 +10,7 @@ $('.sl2').slick({
     slidesToScroll: 1,
     asNavFor: '.slider',
     centerMode: false,
+    centerPadding: '2%',
     focusOnSelect: true,
     arrows: false,
     mobileFirst: true,

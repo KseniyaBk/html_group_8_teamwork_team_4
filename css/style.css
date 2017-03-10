@@ -154,7 +154,13 @@
     }
 
     /**************** ENDDD!!!!!MAIN HEADER************************/
+
     /**************** PROMO ***************************************/
+    .promo {
+        font-family: 'Bitter', serif;
+        font-weight: bold;
+    }
+
     .sl_description {
         left: 2%;
     }
@@ -509,15 +515,34 @@
 
         /********************END Footer***************************************/
     }
-@media screen and (min-width: 1194px) and (max-width: 1440px) {
-    .sl_description {
-        font-size: 198%;
-    }
-}
+
     @media screen and (min-width: 1357px) {
-        .preview {
-            margin: -20px 0;
+
+        /****************** PROMO *******************************************/
+
+        .slider-container {
+            width: 100%;
+            max-width: 1020px;
+            margin: 0 auto;
         }
+
+        .sl2 {
+            margin: 0 4%;
+            padding: 1.65% 0.5% 1.65% 2.25%;
+        }
+        .sl_description {
+            font-size: 173%;
+            top: 21.4%;
+            left: 4%;
+        }
+        .sl_title {
+            padding: 0.8% 1.65% 1% 3%;
+        }
+        .preview {
+            margin: -2% auto;
+        }
+
+        /****************** END PROMO *******************************************/
         .wrap {
             padding: 3%;
             background: #ffffff;

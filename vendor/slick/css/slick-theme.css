@@ -275,9 +275,18 @@
     }
 
 }
-@media screen and (min-width: 1194px) and (max-width: 1440px) {
-
+@media screen and (min-width: 1357px) {
     .slick-prev, .slick-next {
-        top: 62%;
+        top: 53%;
+    }
+    .slick-prev {
+        left: 4%;
+    }
+    .slick-next {
+        left: 7.4%;
+    }
+    .slick-prev:before, .slick-next:before {
+        top: 23%;
+        right: 17%;
     }
 }
