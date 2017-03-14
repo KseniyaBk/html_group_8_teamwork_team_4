@@ -384,7 +384,88 @@
     }
 
     /**************************END FOOTER!!!!******************************************/
-
+    /*BLOG!!!!*/
+    .wrap-main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        float: left;
+    }
+    .main-content-left {
+        width:95%;
+    }
+    .main-content-left h5 {
+        font-family: 'Bitter', serif;
+        font-size: 1.2em;
+        color: #464646;
+        text-transform: capitalize;
+    }
+    .img-block {
+        /*width: 100%;*/
+        /*margin: 4% 0;*/
+    }
+    .blog_date {
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    .img-block img {
+        width:100%;
+    }
+    .blog_date_left {
+        float: left;
+        width: 24.333333%;
+        margin-right: 3%;
+    }
+    .blog_date_left h2 {
+        font-size: 1em;
+        color: #000000;
+        margin: 12% 0 1%;
+    }
+    .blog_date_left p {
+        color: #EA5A4B;
+        line-height: 1.8em;
+        font-size: 0.825em;
+    }
+    .blog_date_left p a {
+        color: #EA5A4B;
+        line-height: 1.8em;
+        font-size: 0.925em;
+        -webkit-transition: 0.9s;
+        -moz-transition: 0.9s;
+        -o-transition: 0.9s;
+        transition: 0.9s;
+        text-decoration: none;
+    }
+    .blog_date_left p a:hover {
+        color: #000000;
+    }
+    .blog_date_right {
+        float: left;
+        width: 64%;
+        margin-left: 2%;
+    }
+    p.blog_date_main {
+        color: #252525;
+        line-height: 1.39em;
+        font-size: 1em;
+    }
+    p.blog_date_bottom {
+        margin-top: 4%;
+        color: #252525;
+        line-height: 1.39em;
+        font-size: 1em;
+    }
+    .second {
+        padding: 4% 0;
+        border-top: 8px solid #EA5A4B;
+        border-bottom: 8px solid #EA5A4B;
+    }
+    .iframe {
+        width:100%;
+    }
+    /*END BLOOGG!!!*/
 }
 
 @media screen and (min-width: 480px) {
@@ -530,7 +611,15 @@
         }
 
         /********************END Footer***************************************/
+        /*BLOG!!!!*/
+        .blog_date_left {
+            float: left;
+            width: 16.333333%;
+            margin-right: -4%;
+        }
+        /* END !!BLOGGG !!!!*/
     }
+
 
     @media screen and (min-width: 1357px) {
         /**************HEADER*************************/
@@ -682,6 +771,13 @@
             text-decoration: none;
             border-bottom: 1px solid #3b3b3b;
         }
+        /*BLOG!!!!*/
+        .blog_date_left {
+            float: left;
+            width: 16.333333%;
+            margin-right: -4%;
+        }
+        /* END !!BLOGGG !!!!*/
     }
 /*********************Page - 2 ********************/
 .promoBlog {
@@ -723,13 +819,14 @@
     display: flex;
     height: 100%;
     flex-direction: row;
+    padding: 2% 3%;
+
 }
 main {
     flex-grow: 1;
 }
 .sideBar {
     flex-grow: 2;
-    align-self: flex-end;
     padding-right: 2.7%;
 }
 /****************************side rightbar****************/

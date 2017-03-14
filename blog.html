@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="vendor/slick/css/slick.css">
     <link rel="stylesheet" href="vendor/slick/css/slick-theme.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/audioplayer.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Blog</title>
 </head>
@@ -46,13 +47,98 @@
         <p>Keep in the loop</p>
     </div>
     <div class="wrapFlexGrid">
-        <main>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae consequatur dolores doloribus eos
-            facere in laborum, minus numquam perspiciatis porro quibusdam, rem sed ullam voluptatem. Enim excepturi
-            exercitationem quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis,
-            impedit incidunt ipsum, iure minima molestiae nulla obcaecati quidem ratione saepe, sapiente sequi
-            vitae. Ad commodi inventore molestiae soluta voluptate?
-        </main>
+        <section class="main clearfix">
+            <div class="wrap-main">
+                <div class="main-block">
+                    <div class="main-content-left">
+                        <h5>Amazing Free Portfolio PSD Theme</h5>
+                        <div class="img-block">
+                            <img src="upload/block-blog/content-left-img-blog.jpg" alt="Content">
+                        </div>
+                    </div>
+                    <div class="blog_date">
+                        <div class="blog_date_left">
+                            <h2>Date</h2>
+                            <p>April 15, 2012</p>
+                            <h2>Tags</h2>
+                            <p>
+                                <a href="#">Website</a>
+                                <span>|</span>
+                                <a href="#">Design</a>
+                            </p>
+                            <h2>Comments</h2>
+                            <p>4</p>
+                        </div>
+                        <div class="blog_date_right">
+                            <p class="blog_date_main">Lorem ipsum dolor sit amet, sit an molestie neglegentur
+                                concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu
+                                possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide
+                                instructior.</p>
+                            <p class="blog_date_bottom">Maecenas ipsum metus, semper hendrerit varius mattis, sed magna
+                                posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc.
+                                Cras varius fermentum iaculis ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block second">
+                    <div class="main-content-left">
+                        <h5>Remimer Wedding Footages</h5>
+                        <div class="img-block">
+                            <iframe class="iframe" src="https://player.vimeo.com/video/103030162?color=ffffff&title=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="blog_date">
+                        <div class="blog_date_left">
+                            <h2>Date</h2>
+                            <p>April 15, 2012</p>
+                            <h2>Tags</h2>
+                            <p>
+                                <a href="#">Website</a>
+                                <span>|</span>
+                                <a href="#">Design</a>
+                            </p>
+                            <h2>Comments</h2>
+                            <p>4</p>
+                        </div>
+                        <div class="blog_date_right">
+                            <p class="blog_date_main">Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior.</p>
+                            <p class="blog_date_bottom">Maecenas ipsum metus, semper hendrerit varius mattis,  sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis  ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block third">
+                    <div class="main-content-left">
+                        <h5>Sound  Clip  of  Concert</h5>
+                        <!--AUDIOO!!!!-->
+                        <audio src="audio/seeyouagain.mp3" preload="auto" controls></audio>
+                        <!--END AUDIO!!!!-->
+                    </div>
+                    <div class="blog_date">
+                        <div class="blog_date_left">
+                            <h2>Date</h2>
+                            <p>April 15, 2012</p>
+                            <h2>Tags</h2>
+                            <p>
+                                <a href="#">Website</a>
+                                <span>|</span>
+                                <a href="#">Design</a>
+                            </p>
+                            <h2>Comments</h2>
+                            <p>4</p>
+                        </div>
+                        <div class="blog_date_right">
+                            <p class="blog_date_main">Lorem ipsum dolor sit amet, sit an molestie neglegentur
+                                concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu
+                                possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide
+                                instructior.</p>
+                            <p class="blog_date_bottom">Maecenas ipsum metus, semper hendrerit varius mattis, sed magna
+                                posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc.
+                                Cras varius fermentum iaculis ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="sideBar">
             <div class="box upper">
                 <h3>
@@ -147,6 +233,9 @@
         </div>
     </div>
 </footer>
-
+<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+<script src="vendor/jplayer/audioplayer.js"></script>
+<script src="js/main.js"></script>
+<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 </body>
 </html>

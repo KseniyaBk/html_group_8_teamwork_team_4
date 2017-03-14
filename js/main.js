@@ -53,3 +53,11 @@ $('.sl2').slick({
         }
     ]
 });
+// BLOG AUDIO!!!
+$( 'audio' ).audioPlayer(
+    {
+        classPrefix: 'audioplayer',
+        strPlay: 'Play',
+        strPause: 'Pause',
+        strVolume: 'Volume'
+    });
