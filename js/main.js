@@ -61,3 +61,17 @@ $( 'audio' ).audioPlayer(
         strPause: 'Pause',
         strVolume: 'Volume'
     });
+// Map Contact.html
+function initMap() {
+    // Create a map object and specify the DOM element for display.
+    var bishkek = {lat:42.846257, lng:74.597216};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: bishkek,
+        scrollwheel: false,
+        zoom:16
+    });
+    var marker = new google.maps.Marker({
+        position: bishkek,
+        map: map
+    })
+}
