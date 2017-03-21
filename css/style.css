@@ -708,7 +708,7 @@ input:focus::-moz-placeholder {
     .wrapFlexGrid{
         flex-direction: row;
     }
-    main {
+    .main {
         flex-grow: 1;
         margin-right: 3%;
         width: 73.5%;
