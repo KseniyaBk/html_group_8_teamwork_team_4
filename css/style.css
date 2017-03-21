@@ -921,7 +921,7 @@ main {
 }
 
 .freebies .red{
-color: #ea5a4b;
+    color: #ea5a4b;
 }
 
 .freebies .mg-bottom {
@@ -944,7 +944,7 @@ input[type="text"],
 input[type="email"],
 input[type="url"],
 textarea {
-    border: 1px solid #252525;
+    border-color: #252525;
 }
 
 input[type="text"]:focus,
