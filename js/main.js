@@ -2,8 +2,9 @@ $('.slider').slick({
     // autoplay: true,
     // autoplaySpeed: 5000,
     asNavFor: '.sl2',
-    mobileFirst: true
+    mobileFirst: true,
 });
+
 
 $('.sl2').slick({
     slidesToShow: 4,

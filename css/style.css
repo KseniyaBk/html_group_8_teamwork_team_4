@@ -8,7 +8,6 @@
     box-sizing: border-box;
     padding: 16px;
     margin: 0 0 -5% 0;
-
     background: #ffffff;
     border: 1px solid rgb(218, 218, 218);
     position: relative
@@ -32,7 +31,7 @@
 
 .sl_description {
     position: absolute;
-    width: 46%;
+    width: 49%;
     top: 27%;
     left: 7%;
     font-size: 73%;
@@ -907,6 +906,82 @@ main {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+.freebies {
+    color: #252525;
+    font-family: 'HelveticaNeue';
+    margin-top: 2%;
+    font-size: 1em;
+}
+.freebies p {
+    margin: 0;
+    color: #252525;
+    font-family: 'HelveticaNeue';
+    font-weight: normal;
+}
+
+.freebies .red{
+color: #ea5a4b;
+}
+
+.freebies .mg-bottom {
+    margin-bottom: 2%;
+}
+
+
+/*********** Сама форма ************/
+.feed {
+    width: 100%;
+}
+.feed input {
+    margin: 1% 1%;
+}
+.feed textarea {
+    margin: 1% 1%;
+    width: 99%;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea {
+    border: 1px solid #252525;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+color: #ea5a4b;
+border: 1px solid #ea5a4b;
+
+}
+textarea::-webkit-input-placeholder {
+    color: #252525;
+    }
+textarea::-moz-placeholder {
+    color: #252525;
+}
+input::-webkit-input-placeholder {
+    color: #252525;
+    }
+input::-moz-placeholder {
+    color: #252525;
+}
+input:focus::-webkit-input-placeholder {
+    color: #ea5a4b;
+ border: 1px solid #ea5a4b;
+}
+input:focus::-moz-placeholder {
+    color: #ea5a4b;
+border: 1px solid #ea5a4b;
+}
+.submit {
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 1% 1%;
+    background: #ea5a4b;
+    font-weight: bold;
 }
 /********* убрать после того как отключим boootstrap********/
 .container {
