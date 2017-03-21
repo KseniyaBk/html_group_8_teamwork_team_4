@@ -610,12 +610,14 @@ p.blog_date_bottom {
     display: flex;
     flex-direction: row;
     height: 100%;
+    margin-top: 2%
 }
 .freebies {
     color: #252525;
     font-family: 'HelveticaNeue';
     margin-top: 2%;
     font-size: 1em;
+    width: 65%;
 }
 .freebies p {
     margin: 0;
@@ -649,6 +651,9 @@ input[type="email"],
 input[type="url"],
 textarea {
     border: 1px solid #252525;
+    padding: 2% 2%;
+    margin: 2% 1%;
+    width: 47%;
 }
 
 input[type="text"]:focus,
