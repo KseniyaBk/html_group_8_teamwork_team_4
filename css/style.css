@@ -951,8 +951,8 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-color: #ea5a4b;
-border: 1px solid #ea5a4b;
+    color: #ea5a4b;
+    border-color: #ea5a4b;
 
 }
 textarea::-webkit-input-placeholder {
@@ -969,11 +969,11 @@ input::-moz-placeholder {
 }
 input:focus::-webkit-input-placeholder {
     color: #ea5a4b;
- border: 1px solid #ea5a4b;
+    border-color: #ea5a4b;
 }
 input:focus::-moz-placeholder {
     color: #ea5a4b;
-border: 1px solid #ea5a4b;
+    border-color: #ea5a4b;
 }
 .submit {
     color: #fff;
