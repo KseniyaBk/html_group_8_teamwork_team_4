@@ -533,7 +533,24 @@ p.blog_date_bottom {
     border-bottom: 5px solid #ea5a4b;
     margin-bottom: 8%;
 }
+.adv-block {
+    box-sizing: border-box;
+    width: 100px;
+    height: 101px;
+    text-align: center;
 
+    border: #c9c9c9 solid 1px;
+    background-color: #f5f5f5;
+    font-family: 'Bitter';
+    display: inline-block;
+    padding: 42px 0;
+    box-sizing: border-box;
+}
+.down a {
+    margin: 0 0 2%;
+    color: #c6c6c6;
+    font-size: 0.875em;
+}
 .upper h3 {
     margin-top: 24%;
 }
