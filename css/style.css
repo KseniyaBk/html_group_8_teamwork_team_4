@@ -691,6 +691,7 @@ input:focus::-moz-placeholder {
     padding: 1% 1%;
     background: #ea5a4b;
     font-weight: bold;
+    cursor: pointer;
 }
 @media screen and (min-width: 480px) {
 
